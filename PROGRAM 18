@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    int max=(a>b)?a:b; //ternary operator
+    printf("maxium=%d\n",max);
+    return 0;
+}
