@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main();
+struct student {
+    int id;
+    char name[20];
+};
+void display(struct student s[], int n) {
+    for(int i=0; i<n; i++)
+    printf("id: %d, name: %s\n", s[i].id, s[i].name);
+}
+int main() {
+    struct student s[3]= {{101, "Gagan"}, {102, "Amit"}, {103, "Ravi"}};
+    display(s, 3);
+    return 0;
+} 
+
